@@ -150,8 +150,6 @@ def is_anagram(text1, text2):
             return False
     print(f"--> The words {text1} & {text2} are Anagram")
     return True
-
-def reverse_vowel(text1, text2):
     
 
 largest([150,20,30,3,5,23,100])
