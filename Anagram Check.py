@@ -2,8 +2,8 @@ def is_anagram(text1, text2):
     """
     This function checks if the following two text1 & text2 are anagrams.
     
-    :param text1: String input
-    :param text2: String input
+    text1: String input
+    text2: String input
     """
 
     text1_clean = text1.replace(" ", "")
