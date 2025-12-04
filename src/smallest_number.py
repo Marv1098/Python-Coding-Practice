@@ -20,5 +20,3 @@ def smallest(nums_list):
     
     print("--> Smallest Number in the List: ", smallest_so_far)
     return smallest_so_far
-
-smallest([150,20,30,3,5,23,100])

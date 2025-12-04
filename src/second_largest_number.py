@@ -21,6 +21,3 @@ def second_largest(nums_list):
     print("--> Max Number is: ", max_num)
     print("--> Second Largest Number is: ", second_max_num)
     return second_max_num
-
-#second_largest([150, 20, 30, 3, 300, 20, 100])
-#second_largest([35,35,35])
