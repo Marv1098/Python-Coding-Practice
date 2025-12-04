@@ -1,0 +1,18 @@
+# Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environments
+venv/
+env/
+ENV/
+.env/
+
+# Pytest / coverage
+.pytest_cache/
+htmlcov/
+.coverage
+
+# VS Code settings
+.vscode/
