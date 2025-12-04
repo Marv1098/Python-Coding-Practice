@@ -1,13 +1,23 @@
-def remove_duplicates(nums_list):
+def remove_duplicates(input_list):
     """
     Remove Duplicates from the list
     """
-    unique_list=[]
-    for num in nums_list:
-        if num not in unique_list:
-            unique_list.append(num)
-        
-    print("--> No Duplicates List: ",unique_list)
-    return unique_list
+    # Validate input type
+    if not isinstance(input_list, list):
+        raise TypeError("Input must be a list.")
+    
+    # Empty list check
+    if not input_list:
+        raise ValueError("Cannot remove duplicates from empty list.")
 
-remove_duplicates([150,20,30,3,5,5,150,20,100])
+    unique_list=[]
+    for item in input_list:
+        # Checks for boolean in the list, if boolean detected raise exception
+        if isinstance(item, bool):
+            raise TypeError(f"Boolean value detected: {item!r}")
+        
+        if item not in unique_list:
+            unique_list.append(item)
+        
+    print("--> Updated List: ", unique_list)
+    return unique_list
