@@ -1,6 +1,6 @@
 import pytest
 
-from largest_number import largest
+from src.largest_number import largest
 
 @pytest.mark.parametrize(
     "input_list, expected",
@@ -14,7 +14,7 @@ from largest_number import largest
     ]
 )
 def test_largest_values(input_list, expected):
-    largest(input_list)
+    assert largest(input_list) == expected
 
 def test_empty_list_raises_exception():
     with pytest.raises(ValueError):

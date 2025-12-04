@@ -1,6 +1,6 @@
 import pytest
 
-from smallest_number import smallest
+from src.smallest_number import smallest
 
 @pytest.mark.parametrize(
     "input_list, expected",

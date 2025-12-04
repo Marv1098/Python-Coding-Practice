@@ -1,6 +1,6 @@
 import pytest
 
-from second_largest_number import second_largest
+from src.second_largest_number import second_largest
 
 @pytest.mark.parametrize(
     "input_list, expected",
