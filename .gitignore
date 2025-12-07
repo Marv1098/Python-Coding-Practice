@@ -16,3 +16,6 @@ htmlcov/
 
 # VS Code settings
 .vscode/
+
+# Markdown File
+edge_cases_cheatsheet.md
