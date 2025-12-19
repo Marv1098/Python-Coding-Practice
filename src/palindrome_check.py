@@ -28,5 +28,3 @@ def is_palindrome(text):
            right -= 1
    print(f"--> The input {text} is a Palindrome")
    return True
-
-is_palindrome(" ")
